@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="banksXSLT.xsl"?>
+
+
+<banks xmlns="https://www.w3schools.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.w3schools.com banksXSD.xsd">
+  <bank>
+    <name>Private Bank</name>
+    <country>Ukraine</country>
+    <type>to the question</type>
+    <depositor>Orest Nalyvaiko</depositor>
+    <accountID>8775643212345654</accountID>
+    <amountOnDeposit>1000.12</amountOnDeposit>
+    <profitability>3.5</profitability>
+    <timeConstraints>2</timeConstraints>
+  </bank>
+  <bank>
+    <name>Oshad Bank</name>
+    <country>Ukraine</country>
+    <type>metal</type>
+    <depositor>Bogdan Chupa</depositor>
+    <accountID>8775632212345654</accountID>
+    <amountOnDeposit>10513.46</amountOnDeposit>
+    <profitability>5.8</profitability>
+    <timeConstraints>5</timeConstraints>
+  </bank>
+</banks>
